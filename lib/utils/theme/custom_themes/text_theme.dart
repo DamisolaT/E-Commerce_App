@@ -47,12 +47,12 @@ class TTextTheme {
 
   /// customizable dark text theme
   static TextTheme darkTextTheme = TextTheme(
-    headlineLarge: TextStyle().copyWith(
+    headlineLarge: const TextStyle().copyWith(
       fontSize: 32.0,
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
-    headlineMedium: TextStyle().copyWith(
+    headlineMedium: const TextStyle().copyWith(
         fontSize: 24.0, fontWeight: FontWeight.bold, color: Colors.white),
     headlineSmall: const TextStyle().copyWith(
         fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.white),

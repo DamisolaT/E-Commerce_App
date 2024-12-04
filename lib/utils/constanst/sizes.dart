@@ -40,7 +40,28 @@ class TSizes {
   // divider height
   static const double dividerHeight = 1.0;
 
+  //product item dimensions
+  static const double productImageSize = 120.0;
+  static const double productImageRadius = 16.0;
+  static const double productItemHeight = 160.0;
+
   // Input field
   static const double inputFieldRadius = 12.0;
   static const double spaceBtwInputField = 16.0;
+
+  //card sizes
+  static const double cardRadiusLg = 16.0;
+  static const double cardRadiusMd = 12.0;
+  static const double cardRadiusSm = 10.0;
+  static const double cardRadiusXs = 6.0;
+  static const double cardElevation = 2.0;
+
+  //image carousel height
+  static const double imageCarouselHeight = 200.0;
+
+  //loading indicator size
+  static const double loadingIndicatorSize = 36.0;
+
+  //gridview spacing
+  static const double gridViewSpacing = 16.0;
 }
